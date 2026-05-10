@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>angelwings | composer</title>
+	<link rel="icon" href="favicon.png"/>
+	
+	<meta charset="UTF-8"/>
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="author" content="angelwings"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+	<link rel="stylesheet" href="main.css"/>
+	<script src="main.js"></script>
+</head>
+
+<body onload="load()" onscroll="updateSectionHighlight()">
+	<header>
+		<h1>angelwings</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#classical" id="classicalLink" onclick="scrollToSection('classical')">Classical</a></li>
+			<li><a href="#contemporary" id="contemporaryLink" onclick="scrollToSection('contemporary')">Contemporary</a></li>
+			<li><a href="#soundtracks" id="soundtracksLink" onclick="scrollToSection('soundtracks')">Soundtracks</a></li>
+			<li><a href="#arrangements" id="arrangementsLink" onclick="scrollToSection('arrangements')">Arrangements</a></li>
+		</ul>
+	</nav>
+	
+	<div id="semitransparent"></div>
+
+	<main>
+		<section id="classical">
+			<aside>classical</aside>
+			<div class="tracks">
+				
+				<!-- Colours -->
+				<div class="track" id="colours">
+					<img class="coverart" src="cover_art/orchestra.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Colours</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Orchestral</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/colours.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Forsaken town -->
+				<div class="track" id="forsaken-town">
+					<img class="coverart" src="cover_art/piano.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Forsaken town</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Piano</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/forsaken_town.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Moonshine on a lonely night -->
+				<div class="track" id="moonshine-on-a-lonely-night">
+					<img class="coverart" src="cover_art/piano.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Moonshine on a lonely night</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Piano</span>
+							<span class="tag">2022</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/moonshine_on_a_lonely_night.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Nie było miejsca dla Ciebie -->
+				<div class="track" id="nie-bylo-miejsca">
+					<img class="coverart" src="cover_art/orchestra.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Nie było miejsca dla Ciebie</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Orchestral</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/nie_bylo_miejsca_dla_ciebie.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Sonata Scuteria -->
+				<div class="track" id="sonata-scuteria">
+					<img class="coverart" src="cover_art/piano.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Sonata Scuteria</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Piano</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/sonata_scuteria.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Sonatina -->
+				<div class="track" id="sonatina">
+					<img class="coverart" src="cover_art/piano.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Sonatina</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Piano</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/sonatina.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- The battle on winged horses -->
+				<div class="track" id="the-battle-on-winged-horses">
+					<img class="coverart" src="cover_art/orchestra.jpg"/>
+					<div class="metadata">
+						<h2 class="title">The battle on winged horses</h2>
+						<div>
+							<span class="tag">Classical</span>
+							<span class="tag">Orchestral</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/classical/the_battle_on_winged_horses.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	
+		<section id="contemporary">
+			<aside>contemporary</aside>
+			<div class="tracks">
+			
+				<!-- Cupid -->
+				<div class="track" id="cupid">
+					<img class="coverart" src="cover_art/cupid.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Cupid</h2>
+						<div>
+							<span class="tag">Contemporary</span>
+							<span class="tag">Alternative</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/contemporary/cupid.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- I Sold My Soul 4 Kool-Aid -->
+				<div class="track" id="kool-aid">
+					<img class="coverart" src="cover_art/i_sold_my_soul_4_kool_aid.jpg"/>
+					<div class="metadata">
+						<h2 class="title">I Sold My Soul 4 Kool-Aid</h2>
+						<div>
+							<span class="tag">Contemporary</span>
+							<span class="tag">EDM</span>
+							<span class="tag">2025</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/contemporary/i_sold_my_soul_4_kool_aid.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		
+		<section id="soundtracks">
+			<aside>soundtracks</aside>
+			<div class="tracks">
+			
+				<!-- Spherebounce -->
+				<div class="track" id="spherebounce-bgm">
+					<img class="coverart" src="cover_art/spherebounce.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Spherebounce BGM</h2>
+						<div>
+							<span class="tag">Soundtrack</span>
+							<span class="tag">Spherebounce</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/soundtracks/spherebounce/spherebounce_bgm.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Terrorist Threat: Opening -->
+				<div class="track" id="terrorist-threat-opening">
+					<img class="coverart" src="cover_art/terrorist_threat.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Opening</h2>
+						<div>
+							<span class="tag">Soundtrack</span>
+							<span class="tag">Terrorist Threat</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/soundtracks/terrorist_threat/opening.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Terrorist Threat: Exposition -->
+				<div class="track" id="terrorist-threat-exposition">
+					<img class="coverart" src="cover_art/terrorist_threat.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Exposition</h2>
+						<div>
+							<span class="tag">Soundtrack</span>
+							<span class="tag">Terrorist Threat</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/soundtracks/terrorist_threat/exposition.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Terrorist Threat: Gameplay -->
+				<div class="track" id="terrorist-threat-gameplay">
+					<img class="coverart" src="cover_art/terrorist_threat.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Gameplay</h2>
+						<div>
+							<span class="tag">Soundtrack</span>
+							<span class="tag">Terrorist Threat</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/soundtracks/terrorist_threat/gameplay.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Terrorist Threat: Epilogue -->
+				<div class="track" id="terrorist-threat-epilogue">
+					<img class="coverart" src="cover_art/terrorist_threat.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Epilogue</h2>
+						<div>
+							<span class="tag">Soundtrack</span>
+							<span class="tag">Terrorist Threat</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/soundtracks/terrorist_threat/epilogue.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		
+		<section id="arrangements">
+			<aside>arrangements</aside>
+			<div class="tracks">
+			
+				<!-- Don of the Slums -->
+				<div class="track" id="don-of-the-slums">
+					<img class="coverart" src="cover_art/final_fantasy_vii.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Don of the Slums</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">Final Fantasy VII</span>
+							<span class="tag">2025</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/don_of_the_slums.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+			
+				<!-- General Store -->
+				<div class="track" id="general-store">
+					<img class="coverart" src="cover_art/the_sims_bustin_out.jpg"/>
+					<div class="metadata">
+						<h2 class="title">General Store</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">The Sims Bustin' Out</span>
+							<span class="tag">2023</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/general_store.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Lavender Town
+				<div class="track" id="lavender-town">
+					<img class="coverart" src="cover_art/lavender_town.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Lavender Town</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">Pokémon Red and Blue</span>
+							<span class="tag">2022</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/lavender_town.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				-->
+				
+				<!-- Rocket Hideout -->
+				<div class="track" id="rocket-hideout">
+					<img class="coverart" src="cover_art/rocket_hideout.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Rocket Hideout</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">Pokémon Red and Blue</span>
+							<span class="tag">2022</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/rocket_hideout.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+			
+				<!-- Six Golden Coins Orchestral Suite -->
+				<div class="track" id="six-golden-coins-orchestral-suite">
+					<img class="coverart" src="cover_art/six_golden_coins.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Six Golden Coins Orchestral Suite</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">Super Mario Land 2: Six Golden Coins</span>
+							<span class="tag">2026</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/six_golden_coins_orchestral_suite.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Tret -->
+				<div class="track" id="tret">
+					<img class="coverart" src="cover_art/golden_sun.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Tret</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">Golden Sun</span>
+							<span class="tag">2025</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/tret.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Under the Rotting Pizza -->
+				<div class="track" id="under-the-rotting-pizza">
+					<img class="coverart" src="cover_art/final_fantasy_vii.jpg"/>
+					<div class="metadata">
+						<h2 class="title">Under the Rotting Pizza</h2>
+						<div>
+							<span class="tag">Arrangement</span>
+							<span class="tag">Final Fantasy VII</span>
+							<span class="tag">2025</span>
+						</div>
+						<div></div>
+						<div class="controls">
+							<audio controls controlsList="nodownload">
+								<source src="music_tracks/arrangements/under_the_rotting_pizza.ogg" type="audio/ogg"/>
+							</audio>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	</main>
+	
+	<section id="contact">
+		<h3>Contact</h3>
+		Email: <span class="selectable">ntntnldmg@gmail.com</span><br/>
+		Discord: <span class="selectable">ntntnldmg</span>
+	</section>
+	
+	<footer>
+		
+		<span>&copy; 2026 angelwings</span> <img src="brandmark.svg"/> <span>All rights reserved.</span>
+	</footer>
+</body>
+
+</html>
+
